@@ -174,18 +174,3 @@ app.get('/', (req, res) => {
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => console.log(`Bot live on port ${PORT}`));
-
-{
-  "name": "eduloans-whatsapp-bot",
-  "version": "1.0.0",
-  "description": "CashKaro EduLoans WhatsApp journey bot powered by Claude",
-  "main": "index.js",
-  "scripts": {
-    "start": "node index.js"
-  },
-  "dependencies": {
-    "@anthropic-ai/sdk": "^0.24.0",
-    "express": "^4.18.2",
-    "twilio": "^5.0.0"
-  }
-}
