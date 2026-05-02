@@ -16,6 +16,7 @@ const contacts = {
   '+919820692913': { name: 'Mohsin', marks: 60, segment: 'C' },
   '+919786236373': { name: 'Vishal', marks: 89, segment: 'A' },
   '+919990919105': { name: 'Riddhi', marks: 99, segment: 'A' },
+  '+919313181687': { name: 'Monika', marks: 94, segment: 'A' },
 };
 
 // In-memory conversation history (fine for 5-person test)
